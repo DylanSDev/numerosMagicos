@@ -21,6 +21,7 @@ const enviarNumero = () => {
   } else {
     if (numeroIngresado == numeroMagico) {
       alert("¡HAZ ADIVINADO EL NÚMERO MÁGICO!");
+      location.reload();
     }
     if (numeroIngresado > numeroMagico)
       alert("El número ingresado es mayor al número mágico");
